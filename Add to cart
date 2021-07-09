@@ -1,4 +1,23 @@
  {
+ "bukalapak
+ Silakan masuk ke dalam akun kamu
+ Belum punya akun?", {
+ 
+ "Daftar di sini: "https://www.bukalapak.com/register",
+ "E-mail/Username/Nomor Handphone": "E-mail/Username/Nomor Handphone",
+ "Password": "Enter the password",
+ "Ingat Saya": "Click Checkbox",
+ "Lupa Password?": "https://www.bukalapak.com/password_resets/new",
+ "Login": "https://www.bukalapak.com/", }
+ 
+" Atau, {
+ "Login menggunakan facebook": "https://www.facebook.com/",
+ "Login menggunakan google ": "https://www.google.com/",
+ "Belum punya akun? Daftar sekarang": "https://www.bukalapak.com/register",
+ "User belum aktif? Kirim ulang email aktivasi": "https://www.bukalapak.com/users/request_email_resend", }
+ },
+
+ {
     "Bukalapak": [
     {"Produk Virtual": "Featured", "Games", "Promo Incaranmu", "TopUp & Isi Pulsa", "Tagihan", "Investasi", "Pinjaman", "Travel"},
     {"Kategori Barang": "Sepeda", "Olahraga", "Motor", "Mobil,Part dan Aksesoris", "Elektronik", "Handphone", "Komputer", "Hobi & Koleksi", "Lihat Semua Kategori"}, 
