@@ -1,54 +1,67 @@
  {
- bukalapak
- Daftar dulu, yuk
-    "Nomor Handphone", "E-mail": 1,
-     Misal:081234567890, atau nama@email.com
-    "Daftar": 1,
- Bisa juga pakai
-    "https://www.facebook.com/": 1,
-    "https://www.google.com/": 1,
-    "Sudah punya akun? Login": 1,
-  },
+ "bukalapak
+ Daftar dulu, yuk" : "https://accounts.bukalapak.com/register?from=agentregister", {
+ "Nomor handphone atau email": "Enter Nomor handphone or email",
+ "Misal": "081234567890", "atau nama@email.com",
+ "Daftar": "https://accounts.bukalapak.com/register?from=agentregister", }
+ {
+ "Bisa juga pakai",
+ "Login menggunakan facebook": "https://www.facebook.com/",
+ "Login menggunakan google": "https://www.google.com/",
+ "Sudah punya akun? Login": "https://www.bukalapak.com/login", }
 
 
 {
-Verifikasi Pendaftaran
-No. HP kamu sudah benar?
-Kode rahasia akan dikirimkan ke xxxx-xxxx-xxx untuk proses verifikasi
-    "Ya, kirim kode": 1,
-    "Bukan, ganti nomor": 1,
-},
+"Verifikasi Pendaftaran
+No. HP kamu sudah benar?",
+"Kode rahasia akan dikirimkan ke xxxx-xxxx-xxx untuk proses verifikasi",
+"Ya, kirim kode": "True",
+"Bukan, ganti nomor": "False", }
 
 
 {
-Verifikasi Pendaftaran
+"Verifikasi Pendaftaran
 Masukkan Kode Rahasia yang diterima via SMS di:
-xxxx-xxxx-xxx
-    "Kode rahasia": 1,
-    "Belum terima kode? Kirim ulang": 1,
-    "Verifikasi": 1,
-    "If true": Nomor Handphone 0812****041 berhasil diverifikasi,
-    "If false": Nomor Handphone 0812****041 gagal diverifikasi,
-},
+xxxx-xxxx-xxx",
+"Kode rahasia": "****",
+"Belum terima kode?": "Tunggu 30 detik",
+"Belum terima kode?": "Kirim ulang",
+"Verifikasi": "https://accounts.bukalapak.com/register?from=agentregiste",
+"Nomor Handphone 0812****041 berhasil diverifikasi": "True",
+"Nomor Handphone 0812****041 gagal diverifikasi": "False",
+}
 
 
  {
- bukalapak
- Daftar dulu, yuk
- Isi nama dan password
-    "Nama lengkap": 1,
-    "Password":1,
-     Min.6 karakter, terdiri dari angka dan huruf.
- Dengan mendaftar kamu menyetujui Aturan Penggunaan https://accounts.bukalapak.com/register?from=leftlogin
- dan Kebijakan Privasi Bukalapak https://accounts.bukalapak.com/register?from=leftlogin.
- kamu bisa menghubungkan DANA pada proses pendaftaran
-    "Simpan": 1,
- },
+ "bukalapak
+ Daftar dulu, yuk Isi nama dan password",
+ "Nama lengkap": "L** I****** L**********i",
+ "Password":I******11",
+ "Min.6 karakter, terdiri dari angka dan huruf.",
+ "Dengan mendaftar kamu menyetujui Aturan Penggunaan": "https://accounts.bukalapak.com/register?from=leftlogin",
+ "dan Kebijakan Privasi Bukalapak": "https://accounts.bukalapak.com/register?from=leftlogin.",
+ "kamu bisa menghubungkan DANA pada proses pendaftaran",
+ "Simpan": "https://accounts.bukalapak.com/register?from=agentregiste", }
  
  
-  {
- bukalapak
- Akun kamu berhasil dibuat!
- Sekarang kamu bisa bebas belanja semua kebutuhan di Bukalapak
-    "Mulai belanja": 1,
+ {
+ "bukalapak
+ Akun kamu berhasil dibuat!",
+ "Sekarang kamu bisa bebas belanja semua kebutuhan di Bukalapak",
+ "Mulai belanja": "https://m.dana.id/d/ipg/ipgLogin?phoneNumber=8568075252&action=PAGE_NORMAL_LOGIN&ipgForwardUrl=%2Fd%2Fportal%2Foauth%3FclientId%3D2017060600000000000010%26lang%3Did%26productCode%3D51051000100000000031%26redirectUrl%3Dhttps%253A%252F%252Fwww.bukalapak.com%252Fe_wallet%252Fdana%252Fconnect_callback%26requestId%3D7580d480-278f-4e8d-85b9-c86800b77d83%26scopes%3DDEFAULT_BASIC_PROFILE,AGREEMENT_PAY,QUERY_BALANCE,CASHIER,MINI_DANA,PUBLIC_ID%26seamlessData%3D%257B%2522externalUid%2522%253A553972805,%2522mobile%2522%253A%252208568075252%2522,%2522verifiedTime%2522%253A%25222021-07-09T17%253A52%253A37.171%252B07%253A00%2522,%2522reqTime%2522%253A%25222021-07-09T17%253A52%253A37.173%252B07%253A00%2522,%2522reqMsgId%2522%253A%2522c92bd18c-4534-43e4-9a92-3e9bba5212ce%2522%257D%26seamlessSign%3DCD%252BfDjPesT52RuJ7E%252BC3Xxs6iiQ8ifos0frlycgQzYaxWuhOlKf%252FcNm4lM9rGv2B6p2rORXRJykHWVJDIgUr8M35rfcwcpIE4L3MKezcExqogM9y9ECFDT6k%252Fr0na%252BiIBKi3JueiHy0rZqPpaRS75TWuB5OgOwykgzcQg30tgJzpyMIJ0svxf2xhOW4NjhKyRgvbhXaBS%252Fd6SDHKcTAFZXqbrf33PYRM13sDKJWZPYL2xBMyDg7p5zqZCDdkdQfUdfZUhgjky1Rp7XNpnbv3%252BdrrvR5be0emaBoQq5XESwY2KcBmElIB0cLuOCOQKvgf8lJ7QLfQZ3uxjucKJP1TiA%253D%253D%26state%3D7580d480-278f-4e8d-85b9-c86800b77d83%26terminalType%3DWEB",
+ }
+ 
+ {
+ "Buat Akun DANA",
+ "Nomor anda +62********** telah diverifikasi Setup PIN untuk digunakan setiap bertransaksi menggunakan DANA",
+ "Buat PIN DANA": "******",
+ "Ulangi PIN": "******",
+ "Lanjutkan": "https://m.dana.id/d/ipg/ipgLogin?phoneNumber=8568075252&action=PAGE_NORMAL_LOGIN&ipgForwardUrl=%2Fd%2Fportal%2Foauth%3FclientId%3D2017060600000000000010%26lang%3Did%26productCode%3D51051000100000000031%26redirectUrl%3Dhttps%253A%252F%252Fwww.bukalapak.com%252Fe_wallet%252Fdana%252Fconnect_callback%26requestId%3D7580d480-278f-4e8d-85b9-c86800b77d83%26scopes%3DDEFAULT_BASIC_PROFILE,AGREEMENT_PAY,QUERY_BALANCE,CASHIER,MINI_DANA,PUBLIC_ID%26seamlessData%3D%257B%2522externalUid%2522%253A553972805,%2522mobile%2522%253A%252208568075252%2522,%2522verifiedTime%2522%253A%25222021-07-09T17%253A52%253A37.171%252B07%253A00%2522,%2522reqTime%2522%253A%25222021-07-09T17%253A52%253A37.173%252B07%253A00%2522,%2522reqMsgId%2522%253A%2522c92bd18c-4534-43e4-9a92-3e9bba5212ce%2522%257D%26seamlessSign%3DCD%252BfDjPesT52RuJ7E%252BC3Xxs6iiQ8ifos0frlycgQzYaxWuhOlKf%252FcNm4lM9rGv2B6p2rORXRJykHWVJDIgUr8M35rfcwcpIE4L3MKezcExqogM9y9ECFDT6k%252Fr0na%252BiIBKi3JueiHy0rZqPpaRS75TWuB5OgOwykgzcQg30tgJzpyMIJ0svxf2xhOW4NjhKyRgvbhXaBS%252Fd6SDHKcTAFZXqbrf33PYRM13sDKJWZPYL2xBMyDg7p5zqZCDdkdQfUdfZUhgjky1Rp7XNpnbv3%252BdrrvR5be0emaBoQq5XESwY2KcBmElIB0cLuOCOQKvgf8lJ7QLfQZ3uxjucKJP1TiA%253D%253D%26state%3D7580d480-278f-4e8d-85b9-c86800b77d83%26terminalType%3DWEB",
+ "Butuh bantuan?": "Hubungi kami di 1-500-445 atau help@dana.id", }
+ 
+ {
+ "PIN DANA",
+ "Masukkan PIN DANA untuk login": "******", "https://accounts.bukalapak.com",
+ "Lupa PIN DANA anda?": "https://m.dana.id/d/ipg/ipgLogin?phoneNumber=8568075252&action=PAGE_NORMAL_LOGIN&ipgForwardUrl=%2Fd%2Fportal%2Foauth%3FclientId%3D2017060600000000000010%26lang%3Did%26productCode%3D51051000100000000031%26redirectUrl%3Dhttps%253A%252F%252Fwww.bukalapak.com%252Fe_wallet%252Fdana%252Fconnect_callback%26requestId%3D7580d480-278f-4e8d-85b9-c86800b77d83%26scopes%3DDEFAULT_BASIC_PROFILE,AGREEMENT_PAY,QUERY_BALANCE,CASHIER,MINI_DANA,PUBLIC_ID%26seamlessData%3D%257B%2522externalUid%2522%253A553972805,%2522mobile%2522%253A%252208568075252%2522,%2522verifiedTime%2522%253A%25222021-07-09T17%253A52%253A37.171%252B07%253A00%2522,%2522reqTime%2522%253A%25222021-07-09T17%253A52%253A37.173%252B07%253A00%2522,%2522reqMsgId%2522%253A%2522c92bd18c-4534-43e4-9a92-3e9bba5212ce%2522%257D%26seamlessSign%3DCD%252BfDjPesT52RuJ7E%252BC3Xxs6iiQ8ifos0frlycgQzYaxWuhOlKf%252FcNm4lM9rGv2B6p2rORXRJykHWVJDIgUr8M35rfcwcpIE4L3MKezcExqogM9y9ECFDT6k%252Fr0na%252BiIBKi3JueiHy0rZqPpaRS75TWuB5OgOwykgzcQg30tgJzpyMIJ0svxf2xhOW4NjhKyRgvbhXaBS%252Fd6SDHKcTAFZXqbrf33PYRM13sDKJWZPYL2xBMyDg7p5zqZCDdkdQfUdfZUhgjky1Rp7XNpnbv3%252BdrrvR5be0emaBoQq5XESwY2KcBmElIB0cLuOCOQKvgf8lJ7QLfQZ3uxjucKJP1TiA%253D%253D%26state%3D7580d480-278f-4e8d-85b9-c86800b77d83%26terminalType%3DWEB",
+ "Butuh bantuan?": "Hubungi kami di 1-500-445 atau help@dana.id", }
  },
