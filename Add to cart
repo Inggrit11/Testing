@@ -1,6 +1,23 @@
  {
-    "userId": 1,
-    "id": 1,
-    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-  },
+    "Bukalapak": [
+    {"Produk Virtual": "Featured", "Games", "Promo Incaranmu", "TopUp & Isi Pulsa", "Tagihan", "Investasi", "Pinjaman", "Travel"},
+    {"Kategori Barang": "Sepeda", "Olahraga", "Motor", "Mobil,Part dan Aksesoris", "Elektronik", "Handphone", "Komputer", "Hobi & Koleksi", "Lihat Semua Kategori"}, 
+    {"Favorit": "Barang Favorite"}, 
+    {"Transaksi": "Pembelian", "Penjualan"}, 
+    {"Pesan": "Semua", "Belum dibaca"}, 
+    {"Notifikasi": "Kategori semua"}, 
+    {"Cart Icon": "Keranjang Belanja"}, 
+    {"Akun Icon": "Nama Akun Bukalapak"},
+    ]
+    },
+    
+ {
+    "Bukalapak" : {
+    "Kategori Barang": [ "Sepeda", "Olahraga", "Motor", "Mobil, Part dan Aksesoris", "Elektronik", "Handphone", "Komputer", "Hobi & Koleksi", "Lihat Semua Kategori" ]
+    }
+    "Lihat Semua Kategori": [ "Perlengkapan Bayi, "Perlengkapan Makan", "Botol minum gelas anak balita" ]
+    "Botol minum gelas anak balita": "Tambah ke Icon keranjang belanja/Add to cart",
+    "Satu barang ditambahkan ke keranjang": "Lihat keranjang (1)",
+    "Cart Icon": [ "Pilih semua", "Pindakan ke Favorit", "Hapus", "Lanjut ke Pembayaran" ]
+    },
+    
