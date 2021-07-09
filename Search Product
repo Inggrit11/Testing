@@ -1,6 +1,22 @@
- {
-    "userId": 1,
-    "id": 1,
-    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-  },
+{
+ "bukalapak
+ Silakan masuk ke dalam akun kamu
+ Belum punya akun?", {
+ 
+ "Daftar di sini: "https://www.bukalapak.com/register",
+ "E-mail/Username/Nomor Handphone": "E-mail/Username/Nomor Handphone",
+ "Password": "Enter the password",
+ "Ingat Saya": "Click Checkbox",
+ "Lupa Password?": "https://www.bukalapak.com/password_resets/new",
+ "Login": "https://www.bukalapak.com/", }
+ 
+" Atau, {
+ "Login menggunakan facebook": "https://www.facebook.com/",
+ "Login menggunakan google ": "https://www.google.com/",
+ "Belum punya akun? Daftar sekarang": "https://www.bukalapak.com/register",
+ "User belum aktif? Kirim ulang email aktivasi": "https://www.bukalapak.com/users/request_email_resend", }
+ },
+
+
+{
+
