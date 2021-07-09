@@ -10,4 +10,6 @@
  Atau
     "https://www.facebook.com/": 1,
     "https://www.google.com/": 1,
+    "Belum punya akun? Daftar sekarang": 1,
+    "User belum aktif? Kirim ulang email aktivasi": 1,
   },
