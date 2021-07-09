@@ -9,3 +9,22 @@
     "https://www.google.com/": 1,
     "Sudah punya akun? Login": 1,
   },
+
+{
+Verifikasi Pendaftaran
+No. HP kamu sudah benar?
+Kode rahasia akan dikirimkan ke xxxx-xxxx-xxx untuk proses verifikasi
+    "Ya, kirim kode": 1,
+    "Bukan, ganti nomor": 1,
+},
+
+{
+Verifikasi Pendaftaran
+Masukkan Kode Rahasia yang diterima via SMS di:
+xxxx-xxxx-xxx
+    "Kode rahasia": 1,
+    "Belum terima kode? Kirim ulang": 1,
+    "Verifikasi": 1,
+    "If true": Nomor Handphone xxxx-xxxx-xxx berhasil diverifikasi,
+    "If false": Nomor Handphone xxxx-xxxx-xxx gagal diverifikasi,
+},
