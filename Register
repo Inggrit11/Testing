@@ -2,13 +2,14 @@
  bukalapak
  Daftar dulu, yuk
     "Nomor Handphone", "E-mail": 1,
- Misal:081234567890, atau nama@email.com
+     Misal:081234567890, atau nama@email.com
     "Daftar": 1,
  Bisa juga pakai
     "https://www.facebook.com/": 1,
     "https://www.google.com/": 1,
     "Sudah punya akun? Login": 1,
   },
+
 
 {
 Verifikasi Pendaftaran
@@ -18,6 +19,7 @@ Kode rahasia akan dikirimkan ke xxxx-xxxx-xxx untuk proses verifikasi
     "Bukan, ganti nomor": 1,
 },
 
+
 {
 Verifikasi Pendaftaran
 Masukkan Kode Rahasia yang diterima via SMS di:
@@ -25,6 +27,28 @@ xxxx-xxxx-xxx
     "Kode rahasia": 1,
     "Belum terima kode? Kirim ulang": 1,
     "Verifikasi": 1,
-    "If true": Nomor Handphone xxxx-xxxx-xxx berhasil diverifikasi,
-    "If false": Nomor Handphone xxxx-xxxx-xxx gagal diverifikasi,
+    "If true": Nomor Handphone 0812****041 berhasil diverifikasi,
+    "If false": Nomor Handphone 0812****041 gagal diverifikasi,
 },
+
+
+ {
+ bukalapak
+ Daftar dulu, yuk
+ Isi nama dan password
+    "Nama lengkap": 1,
+    "Password":1,
+     Min.6 karakter, terdiri dari angka dan huruf.
+ Dengan mendaftar kamu menyetujui Aturan Penggunaan https://accounts.bukalapak.com/register?from=leftlogin
+ dan Kebijakan Privasi Bukalapak https://accounts.bukalapak.com/register?from=leftlogin.
+ kamu bisa menghubungkan DANA pada proses pendaftaran
+    "Simpan": 1,
+ },
+ 
+ 
+  {
+ bukalapak
+ Akun kamu berhasil dibuat!
+ Sekarang kamu bisa bebas belanja semua kebutuhan di Bukalapak
+    "Mulai belanja": 1,
+ },
