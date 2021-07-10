@@ -1,18 +1,312 @@
- {
- "bukalapak
- Silakan masuk ke dalam akun kamu
- Belum punya akun?", {
- 
- "Daftar di sini: "https://www.bukalapak.com/register",
- "E-mail/Username/Nomor Handphone": "E-mail/Username/Nomor Handphone",
- "Password": "Enter the password",
- "Ingat Saya": "Click Checkbox",
- "Lupa Password?": "https://www.bukalapak.com/password_resets/new",
- "Login": "https://www.bukalapak.com/", }
- 
-" Atau, {
- "Login menggunakan facebook": "https://www.facebook.com/",
- "Login menggunakan google ": "https://www.google.com/",
- "Belum punya akun? Daftar sekarang": "https://www.bukalapak.com/register",
- "User belum aktif? Kirim ulang email aktivasi": "https://www.bukalapak.com/users/request_email_resend", }
- },
+{
+  "id": "10e65485-ba0e-4a41-bd66-c768a418a408",
+  "version": "2.0",
+  "name": "Testing Login",
+  "url": "https://www.bukalapak.com",
+  "tests": [{
+    "id": "6573d74b-c789-4331-834b-0f336425ac65",
+    "name": "inggrit login",
+    "commands": [{
+      "id": "e0ff75d3-ad0d-492e-b4f9-1cfc86e01f0e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3c1c22a-96c1-45be-870a-a62b178e79b9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "071937f4-7ce0-4c82-bfef-760492644cf0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sigil-header__main-nav-bar",
+      "targets": [
+        ["css=.sigil-header__main-nav-bar", "css:finder"],
+        ["xpath=//div[@id='vm__white-header-dweb']/section/header/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b594305-580e-4448-a578-4e16aad2eb25",
+      "comment": "",
+      "command": "click",
+      "target": "css=.te-header-login > .pr-4",
+      "targets": [
+        ["css=.te-header-login > .pr-4", "css:finder"],
+        ["xpath=//div[@id='vm__white-header-dweb']/section/header/div[3]/div/div/div[2]/div/a[2]/p", "xpath:idRelative"],
+        ["xpath=//a[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fd3f39f-ec31-4475-b6d4-04fcdb15dca0",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_session_username",
+      "targets": [
+        ["id=user_session_username", "id"],
+        ["name=user_session[username]", "name"],
+        ["css=#user_session_username", "css:finder"],
+        ["xpath=//input[@id='user_session_username']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Luh Inggrit Lusiawardani"
+    }, {
+      "id": "f6d187cc-1104-41d3-87f1-de39efd77108",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_session_password",
+      "targets": [
+        ["id=user_session_password", "id"],
+        ["name=user_session[password]", "name"],
+        ["css=#user_session_password", "css:finder"],
+        ["xpath=//input[@id='user_session_password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Inggrit11"
+    }, {
+      "id": "54df4521-f264-4225-93f4-8ee048f1c06a",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_session_username",
+      "targets": [
+        ["id=user_session_username", "id"],
+        ["name=user_session[username]", "name"],
+        ["css=#user_session_username", "css:finder"],
+        ["xpath=//input[@id='user_session_username']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc1dd65e-18b6-42fa-9cd5-b8ef1837785c",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_session_username",
+      "targets": [
+        ["id=user_session_username", "id"],
+        ["name=user_session[username]", "name"],
+        ["css=#user_session_username", "css:finder"],
+        ["xpath=//input[@id='user_session_username']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6328727c-7322-4e90-9641-594a43c35567",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex-container > div:nth-child(3)",
+      "targets": [
+        ["css=.flex-container > div:nth-child(3)", "css:finder"],
+        ["xpath=//main/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae2e8c92-4d91-4488-b024-840c321a784a",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_session_password",
+      "targets": [
+        ["id=user_session_password", "id"],
+        ["name=user_session[password]", "name"],
+        ["css=#user_session_password", "css:finder"],
+        ["xpath=//input[@id='user_session_password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99cb62dd-bfda-41b4-bff2-49c58a803a3a",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_session_password",
+      "targets": [
+        ["id=user_session_password", "id"],
+        ["name=user_session[password]", "name"],
+        ["css=#user_session_password", "css:finder"],
+        ["xpath=//input[@id='user_session_password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "061bb7d7-6951-493b-a421-e9d08401210c",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_session_username",
+      "targets": [
+        ["id=user_session_username", "id"],
+        ["name=user_session[username]", "name"],
+        ["css=#user_session_username", "css:finder"],
+        ["xpath=//input[@id='user_session_username']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97b01cf0-7f4e-488e-b051-758f980dafeb",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_session_username",
+      "targets": [
+        ["id=user_session_username", "id"],
+        ["name=user_session[username]", "name"],
+        ["css=#user_session_username", "css:finder"],
+        ["xpath=//input[@id='user_session_username']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "08568075252"
+    }, {
+      "id": "c3cf6e5b-f68c-4137-8df4-d12154d8c24b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex-container > div:nth-child(3)",
+      "targets": [
+        ["css=.flex-container > div:nth-child(3)", "css:finder"],
+        ["xpath=//main/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1731668e-4726-4c72-81be-2c04afb70b13",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_session_password",
+      "targets": [
+        ["id=user_session_password", "id"],
+        ["name=user_session[password]", "name"],
+        ["css=#user_session_password", "css:finder"],
+        ["xpath=//input[@id='user_session_password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d75aff2-af12-4ec9-a942-6da03b903ec4",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_session_password",
+      "targets": [
+        ["id=user_session_password", "id"],
+        ["name=user_session[password]", "name"],
+        ["css=#user_session_password", "css:finder"],
+        ["xpath=//input[@id='user_session_password']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Inggrit11"
+    }, {
+      "id": "631d436d-45a7-4232-859e-269faba52c25",
+      "comment": "",
+      "command": "click",
+      "target": "css=.remember-me-label",
+      "targets": [
+        ["css=.remember-me-label", "css:finder"],
+        ["xpath=//div[4]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,' Ingat Saya')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76e2906a-4b02-4b8c-87d1-d546164b1372",
+      "comment": "",
+      "command": "click",
+      "target": "css=.remember-me-label",
+      "targets": [
+        ["css=.remember-me-label", "css:finder"],
+        ["xpath=//div[4]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,' Ingat Saya')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d4e51a0-fc2b-4d6c-941d-8247b9ec47a2",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=.c-btn", "css:finder"],
+        ["xpath=//button[@name='commit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e66c7e9-1223-4b81-89de-69d8a1282276",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Token Listrik",
+      "targets": [
+        ["linkText=Token Listrik", "linkText"],
+        ["css=.bl-flex-item:nth-child(7) > .bl-dope-item", "css:finder"],
+        ["xpath=//div[@id='homepage-home-section-app']/section/div/div/div/div/div/div/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.bukalapak.com/listrik-pln/token-listrik?referrer=recommendation&from=homepage-menu-7')]", "xpath:href"],
+        ["xpath=//section/div/div/div/div/div/div/div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Token Listrik')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bd24701-a692-497b-b619-08c485027563",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Listrik Pascabayar",
+      "targets": [
+        ["linkText=Listrik Pascabayar", "linkText"],
+        ["css=.bl-flex-item:nth-child(8) > .bl-dope-item", "css:finder"],
+        ["xpath=//div[@id='homepage-home-section-app']/section/div/div/div/div/div/div/div[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.bukalapak.com/listrik-pln/tagihan-listrik?referrer=recommendation&from=homepage-menu-8')]", "xpath:href"],
+        ["xpath=//section/div/div/div/div/div/div/div[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Listrik Pascabayar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4fe2971-1fc1-473a-b5f2-3254f5bf1ee2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.c-icon-duotone--credit-card",
+      "targets": [
+        ["css=.c-icon-duotone--credit-card", "css:finder"],
+        ["xpath=//div/a[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f067a56-98f0-4082-84b3-139748c08f13",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-icon-duotone--credit-card",
+      "targets": [
+        ["css=.c-icon-duotone--credit-card", "css:finder"],
+        ["xpath=//div/a[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e160218f-79fa-4abe-ba7c-bc65a3a676fd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.c-icon-duotone--credit-card",
+      "targets": [
+        ["css=.c-icon-duotone--credit-card", "css:finder"],
+        ["xpath=//div/a[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ece200d0-ed73-48c7-8e8b-10f806970cea",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.c-nav-icon-group > .c-nav-icon:nth-child(7) .c-nav-icon__text",
+      "targets": [
+        ["css=.c-nav-icon-group > .c-nav-icon:nth-child(7) .c-nav-icon__text", "css:finder"],
+        ["xpath=//a[7]/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tiket Pesawat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "058d8d86-c68e-49ba-9c18-f942383ad255",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6573d74b-c789-4331-834b-0f336425ac65"]
+  }],
+  "urls": ["https://www.bukalapak.com/"],
+  "plugins": []
+}
